@@ -4,6 +4,7 @@
   background-color: white;
   z-index: 99;
   width: 100%;
+  height: 200px;
 }
 .topBar__containerBox1 {
   position: relative;
@@ -26,6 +27,7 @@
 }
 /* 메인 메뉴 네비 */
 .menu-containerBox2 {
+  padding: 0 14%;
   background-color: #150050;
   height: 80px;
 }
@@ -40,46 +42,41 @@
  }
 
 .menu-container__box > a {
+  font-family: GangwonEdu_OTFBoldA;
   display: block;
   height: 80px;
   position: absolute;
-  top: 0px;
+  line-height: 40px;
  }
 .menu-container__box a:not(#home) span {
   display: block;
   font-size: 26px;
-  transition: color 1s ease-in-out;
   color: #f9f5e7;
 }
 .menu-container__box > a:not(#home) span {
-  margin-top: 21px;
-}
-.menu-container__box:nth-child(2) > a {
-  left: 15%;
-}
-.menu-container__box:first-child > a {
-  font-size: 35px;
-  top: 0px;
-  left: 25%;
-  color: #f9f5e7;
-  font-weight: 600;
-  line-height: 75px;
+  margin-top: 22px;
 }
 
-.submenu__background {
-  width: 100%;
-  height: 30px;
-  background-color: #fffbe9;
+#home {
+  font-family: SBAggroB;
+  font-size: 28px;
+  color: #DA0037;
+  text-shadow: 1px 2px 1px black; 
+  font-weight: 600;
+  line-height: 85px;
 }
+
 .submenu-containerBox1 {
-  display: flex;
   margin-top: 80px;
+  height: 200px;
+  width: 150px;
 }
 .submenu-containerBox1 > li {
   color: black;
-  margin-left: 10px;
   font-size: 15px;
   font-weight: 600;
   padding: 4px 0px;
+  background-color: tomato;
+
 }
 

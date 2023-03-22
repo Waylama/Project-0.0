@@ -3,6 +3,7 @@
 @import "component/hover_menu.css";
 @import "component/footer.css";
 @import "component/sidebar.css";
+@import "./font/font.css";
 /* screen */
 @import "screen/mainpage.css";
 @import "screen/signup.css";
@@ -19,8 +20,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Notosans", -apple-system, BlinkMacSystemFont,
-    Apple SD Gothic Neo, "Malgun Gothic", Arial, sans-serif;
 }
 
 a {
